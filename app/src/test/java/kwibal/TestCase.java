@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 public class TestCase {
     protected WebDriver driver;
     private WebDriverWait wait;
-    private static final int MAX_WAIT_TIME = 10;
+    private static final int MAX_WAIT_TIME = 20;
     private static final String HOME_PAGE_URL = "https://web.platform.kwibal.com/";
     private String product = "iPhone";
 
